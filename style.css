@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFont;
+    src: url(Monoton-Regular.ttf);
+  }
+
 .vl1 {
     border-left: 6px solid green;
     height: 600px;
@@ -40,7 +45,7 @@
     height: 200px;
     position: fixed;
     font-size: 80pt;
-    font-family: fantasy;
+    font-family: myFont;
     transition-duration: 0.4s;
 }
 .topLeft:hover{
@@ -60,7 +65,7 @@
     height: 200px;
     position: fixed;
     font-size: 80pt;
-    font-family: fantasy;
+    font-family: myFont;
     transition-duration: 0.4s;
 }
 .topMiddle:hover{
@@ -80,7 +85,7 @@
     height: 200px;
     position: fixed;
     font-size: 80pt;
-    font-family: fantasy;
+    font-family: myFont;
     transition-duration: 0.4s;
 }
 .topRight:hover{
@@ -100,7 +105,7 @@
     height: 194px;
     position: fixed;
     font-size: 80pt;
-    font-family: fantasy;
+    font-family: myFont;
     transition-duration: 0.4s;
 }
 .middleLeft:hover{
@@ -120,7 +125,7 @@
     height: 194px;
     position: fixed;
     font-size: 80pt;
-    font-family: fantasy;
+    font-family: myFont;
     transition-duration: 0.4s;
 }
 .middle:hover{
@@ -140,7 +145,7 @@
     height: 194px;
     position: fixed;
     font-size: 80pt;
-    font-family: fantasy;
+    font-family: myFont;
     transition-duration: 0.4s;
 }
 .middleRight:hover{
@@ -160,7 +165,7 @@
     height: 194px;
     position: fixed;
     font-size: 80pt;
-    font-family: fantasy;
+    font-family: myFont;
     transition-duration: 0.4s;
 }
 
@@ -181,7 +186,7 @@
     height: 194px;
     position: fixed;
     font-size: 80pt;
-    font-family: fantasy;
+    font-family: myFont;
     transition-duration: 0.4s;
 }
 .bottomMiddle:hover{
@@ -201,7 +206,7 @@
     height: 194px;
     position: fixed;
     font-size: 80pt;
-    font-family: fantasy;
+    font-family: myFont;
     transition-duration: 0.4s;
 }
 .bottomRight:hover{
@@ -234,7 +239,7 @@
 
 .Scoreboard{
     color:black;
-    font-family:fantasy;
+    font-family:myFont;
     font-size: 60pt;
     position: static;
 }
