@@ -7,7 +7,7 @@
     border-left: 6px solid green;
     height: 600px;
     position: fixed;
-    left: 400px;
+    left: 600px;
     top: 100px;
   }
 
@@ -15,7 +15,7 @@
     border-left: 6px solid green;
     height: 600px;
     position: fixed;
-    left: 600px;
+    left: 800px;
     top: 100px;
   }
 
@@ -24,7 +24,7 @@
     width: 600px;
     position:fixed;
     top:300px;
-    left: 200px;
+    left: 400px;
 }
 
 .hl2{
@@ -32,188 +32,86 @@
     width: 600px;
     position:fixed;
     top:500px;
-    left: 200px;
+    left: 400px;
+}
+
+.generalButton{
+    background-color:transparent;
+    color: black;
+    border: transparent;
+    position: fixed;
+    font-size: 80pt;
+    font-family: myFont;
+    transition-duration: 0.4s;
+}
+.generalButton:hover{
+    background-color: aquamarine;
+}
+.generalButton:active{
+    background-color: rgb(10, 149, 149);
 }
 
 .topLeft{
-    background-color:transparent;
-    color: black;
-    border: transparent;
     top: 100px;
-    left: 200px;
+    left: 400px;
     width: 200px;
     height: 200px;
-    position: fixed;
-    font-size: 80pt;
-    font-family: myFont;
-    transition-duration: 0.4s;
-}
-.topLeft:hover{
-    background-color: aquamarine;
-}
-.topLeft:active{
-    background-color: rgb(10, 149, 149);
 }
 
 .topMiddle{
-    background-color:transparent;
-    color: black;
-    border: transparent;
     top: 100px;
-    left: 406px;
+    left: 606px;
     width: 194px;
     height: 200px;
-    position: fixed;
-    font-size: 80pt;
-    font-family: myFont;
-    transition-duration: 0.4s;
-}
-.topMiddle:hover{
-    background-color: aquamarine;
-}
-.topMiddle:active{
-    background-color: rgb(10, 149, 149);
 }
 
 .topRight{
-    background-color:transparent;
-    color: black;
-    border: transparent;
     top: 100px;
-    left: 606px;
+    left: 806px;
     width: 194px;
     height: 200px;
-    position: fixed;
-    font-size: 80pt;
-    font-family: myFont;
-    transition-duration: 0.4s;
-}
-.topRight:hover{
-    background-color: aquamarine;
-}
-.topRight:active{
-    background-color: rgb(10, 149, 149);
 }
 
 .middleLeft{
-    background-color:transparent;
-    color: black;
-    border: transparent;
     top: 306px;
-    left: 200px;
+    left: 400px;
     width: 200px;
     height: 194px;
-    position: fixed;
-    font-size: 80pt;
-    font-family: myFont;
-    transition-duration: 0.4s;
-}
-.middleLeft:hover{
-    background-color: aquamarine;
-}
-.middleLeft:active{
-    background-color: rgb(10, 149, 149);
 }
 
 .middle{
-    background-color:transparent;
-    color: black;
-    border: transparent;
     top: 306px;
-    left: 406px;
+    left: 606px;
     width: 194px;
     height: 194px;
-    position: fixed;
-    font-size: 80pt;
-    font-family: myFont;
-    transition-duration: 0.4s;
-}
-.middle:hover{
-    background-color: aquamarine;
-}
-.middle:active{
-    background-color: rgb(10, 149, 149);
 }
 
 .middleRight{
-    background-color:transparent;
-    color: black;
-    border: transparent;
     top: 306px;
-    left: 606px;
+    left: 806px;
     width: 194px;
     height: 194px;
-    position: fixed;
-    font-size: 80pt;
-    font-family: myFont;
-    transition-duration: 0.4s;
-}
-.middleRight:hover{
-    background-color: aquamarine;
-}
-.middleRight:active{
-    background-color: rgb(10, 149, 149);
 }
 
 .bottomLeft{
-    background-color:transparent;
-    color: black;
-    border: transparent;
     top: 506px;
-    left: 200px;
+    left: 400px;
     width: 200px;
     height: 194px;
-    position: fixed;
-    font-size: 80pt;
-    font-family: myFont;
-    transition-duration: 0.4s;
-}
-
-.bottomLeft:hover{
-    background-color: aquamarine;
-}
-.bottomLeft:active{
-    background-color: rgb(10, 149, 149);
 }
 
 .bottomMiddle{
-    background-color:transparent;
-    color: black;
-    border: transparent;
-    top: 506px;
-    left: 406px;
-    width: 194px;
-    height: 194px;
-    position: fixed;
-    font-size: 80pt;
-    font-family: myFont;
-    transition-duration: 0.4s;
-}
-.bottomMiddle:hover{
-    background-color: aquamarine;
-}
-.bottomMiddle:active{
-    background-color: rgb(10, 149, 149);
-}
-
-.bottomRight{
-    background-color:transparent;
-    color: black;
-    border: transparent;
     top: 506px;
     left: 606px;
     width: 194px;
     height: 194px;
-    position: fixed;
-    font-size: 80pt;
-    font-family: myFont;
-    transition-duration: 0.4s;
 }
-.bottomRight:hover{
-    background-color: aquamarine;
-}
-.bottomRight:active{
-    background-color:rgb(10, 149, 149);
+
+.bottomRight{
+    top: 506px;
+    left: 806px;
+    width: 194px;
+    height: 194px;
 }
 
 .Reset{
