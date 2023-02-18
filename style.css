@@ -21,18 +21,19 @@
     background-color: rgb(10, 149, 149);
 }
 
+.bothBorders{
+    border-right: 6px solid green;
+    border-bottom: 6px solid green;
+}
+
 .topLeft{
     top: 100px;
     left: 400px;
-    border-right: 6px solid green;
-    border-bottom: 6px solid green;
 }
 
 .topMiddle{
     top: 100px;
     left: 600px;
-    border-right: 6px solid green;
-    border-bottom: 6px solid green;
 }
 
 .topRight{
@@ -44,15 +45,11 @@
 .middleLeft{
     top: 300px;
     left: 400px;
-    border-right: 6px solid green;
-    border-bottom: 6px solid green;
 }
 
 .middle{
     top: 300px;
     left: 600px;
-    border-right: 6px solid green;
-    border-bottom: 6px solid green;
 }
 
 .middleRight{
