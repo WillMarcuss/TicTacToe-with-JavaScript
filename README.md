@@ -1,3 +1,3 @@
 # TicTacToe-with-JavaScript
 
-![Alt Text](TTTJS2.gif)
+![Alt Text](Fixed_TTTJS.gif)
