@@ -3,38 +3,6 @@
     src: url(Chalkduster.ttf);
   }
 
-.vl1 {
-    border-left: 6px solid green;
-    height: 600px;
-    position: fixed;
-    left: 600px;
-    top: 100px;
-  }
-
-  .vl2 {
-    border-left: 6px solid green;
-    height: 600px;
-    position: fixed;
-    left: 800px;
-    top: 100px;
-  }
-
-.hl1{
-    border-top: 6px solid green;
-    width: 600px;
-    position:fixed;
-    top:300px;
-    left: 400px;
-}
-
-.hl2{
-    border-top: 6px solid green;
-    width: 600px;
-    position:fixed;
-    top:500px;
-    left: 400px;
-}
-
 .generalButton{
     background-color:transparent;
     color: black;
@@ -43,6 +11,8 @@
     font-size: 80pt;
     font-family: myFont;
     transition-duration: 0.4s;
+    width: 200px;
+    height: 200px;
 }
 .generalButton:hover{
     background-color: aquamarine;
@@ -54,64 +24,58 @@
 .topLeft{
     top: 100px;
     left: 400px;
-    width: 200px;
-    height: 200px;
+    border-right: 6px solid green;
+    border-bottom: 6px solid green;
 }
 
 .topMiddle{
     top: 100px;
-    left: 606px;
-    width: 194px;
-    height: 200px;
+    left: 600px;
+    border-right: 6px solid green;
+    border-bottom: 6px solid green;
 }
 
 .topRight{
     top: 100px;
-    left: 806px;
-    width: 194px;
-    height: 200px;
+    left: 800px;
+    border-bottom: 6px solid green;
 }
 
 .middleLeft{
-    top: 306px;
+    top: 300px;
     left: 400px;
-    width: 200px;
-    height: 194px;
+    border-right: 6px solid green;
+    border-bottom: 6px solid green;
 }
 
 .middle{
-    top: 306px;
-    left: 606px;
-    width: 194px;
-    height: 194px;
+    top: 300px;
+    left: 600px;
+    border-right: 6px solid green;
+    border-bottom: 6px solid green;
 }
 
 .middleRight{
-    top: 306px;
-    left: 806px;
-    width: 194px;
-    height: 194px;
+    top: 300px;
+    left: 800px;
+    border-bottom: 6px solid green;
 }
 
 .bottomLeft{
-    top: 506px;
+    top: 500px;
     left: 400px;
-    width: 200px;
-    height: 194px;
+    border-right: 6px solid green;
 }
 
 .bottomMiddle{
-    top: 506px;
-    left: 606px;
-    width: 194px;
-    height: 194px;
+    top: 500px;
+    left: 600px;
+    border-right: 6px solid green;
 }
 
 .bottomRight{
-    top: 506px;
-    left: 806px;
-    width: 194px;
-    height: 194px;
+    top: 500px;
+    left: 800px;
 }
 
 .Reset{
