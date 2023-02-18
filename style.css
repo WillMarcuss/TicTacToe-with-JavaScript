@@ -220,6 +220,7 @@
     background-color: white;
     color:crimson;
     border: 2px solid navy;
+    border-radius: 50%;
     top: 10px;
     right: 10px;
     width: 200px;
